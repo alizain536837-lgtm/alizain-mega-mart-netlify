@@ -1,0 +1,26 @@
+{
+  "name": "alizain-mega-mart",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "ALIZAIN MEGA MART — customer store + admin panel in ONE Vite + React + TypeScript app. Admin lives behind the private /admin route; there is no admin link on the storefront. Talks to the shared backend API only; never to a database directly.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}
